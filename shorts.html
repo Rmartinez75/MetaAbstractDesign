@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MAD</title>
+
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+
+            $(function() {
+                $(".toggle").on("click", function(){
+                    if($(".item").hasClass("active")){
+                        $(".item").removeClass("active");
+                    }
+                    else{
+                        $(".item").addClass("active");
+                    }
+                })
+            });  
+    
+        </script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav class="head-nav">
+                <ul class="menu list">               
+                    <li class="list-item logo"><a class="top-nav-list" href=""><img class="logo logo-image" src="./images/logo5.svg" alt="Logo">Metaphysical Abstract Design</a></li>
+                    <li class="list-item item"><a href="about.html" class="top-nav-list">About</a></li>
+                    <li class="list-item item"><a href="#" class="top-nav-list">DataBase</a></li>
+                    <li class="list-item item"><a href="https://rmartinez75.github.io/MetaAbstractDesign/" class="top-nav-list">Home</a></li>
+                    <li class="list-item item button"><a href="#" class="top-nav-list">Login</a></li>
+                    <li class="list-item toggle"><span class="bars"></span></li>
+                </ul>
+            </nav>
+        <footer>
+            <div class="footer-info">
+               <!-- <a href="#" class="footer-title">
+                  <span>                
+                     Metaphysical Abstract Design
+                  </span>
+                  <!-- <a href="#" class="footer-title">
+                  <span>                
+                     Metaphysical Abstract Design
+                  </span>
+                  
+               </a> -->
+               <p class="footer-tagline"><img class="svg" src="./images/logo5.svg" alt=""> A Virtual Reflection   </p>
+            </div>            
+            <div class="footer-container-background">               
+               <div class="footer-container">                  
+                  <div class="footer-section-wrapper">
+                     <div class="footer-section">
+                        <p class="footer-category">COMMUNITY</p>
+                        <nav class="footer-list">                          
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                        </nav>
+                     </div>
+                     <div class="footer-section">
+                        <p class="footer-category">HISTORY</p>
+                        <nav class="footer-list">                          
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                        </nav>
+                     </div>
+                     <div class="footer-section">
+                        <p class="footer-category">CONTACT</p>
+                        <nav class="footer-list">                          
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                           <li class="foot-list">
+                              <a href="" class="footer-link">Link</a>
+                           </li>
+                        </nav>
+                     </div>        
+                  </div>                  
+               </div>               
+            </div>
+            <div class="footer-bottom">
+               <div class="footer-bottom-container">
+                  <div class="footer-social">
+                     <a href="https://www.instagram.com/madstudi.o/?hl=en" class="footer-social-icon" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Logo Instagram</title><path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z"/><path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z"/>
+                        </svg>
+                     </a>
+                  </div>
+                  <p class="footer-copyright">&copy;Copyright Metaphysical Abstract Design</p>                  
+               </div>
+            </div>
+
+        </footer>
+
+        </header>
+
+    </body>
+
+</html>

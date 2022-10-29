@@ -64,11 +64,25 @@ body{
     font-size: 22.5px;    
 }
 
+/* ABOUT PAGE */
+
+.about-img{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*MOBILE MENU */
+
+/* BODY */
 
 .background{
     display: none;
 }
+
+/* NAVBAR */
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -317,6 +331,15 @@ body{
     }
     .database:hover{
         font-size: 11px;    
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .about-logo{
+        padding-right: 20px;
     }
 }
 
